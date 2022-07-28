@@ -12,10 +12,18 @@
 
 
 
-@media screen and(max-width:576) {
+@media screen and(max-width:576px) {
     .carousel-text{
         padding: 0;
         margin: 0;
     }
+    .reverse-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hidetext{
+       display: none;
+    }
     
 }
+
